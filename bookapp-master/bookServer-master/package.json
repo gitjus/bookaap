@@ -1,0 +1,31 @@
+{
+  "name": "bookappserver",
+  "version": "1.0.0",
+  "description": "Servidor de BookApp, para gestionar reservas de servicios",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "*",
+    "cors": "*",
+    "express": "*",
+    "express-rate-limit": "^2.11.0",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemailer": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "multer": "*",
+    "node-schedule": "*",
+    "mysql": "*"
+  },
+  "author": "Angelo Crincoli",
+  "license": "ISC"
+}
